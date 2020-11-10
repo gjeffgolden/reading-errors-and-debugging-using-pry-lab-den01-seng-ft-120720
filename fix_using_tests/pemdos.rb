@@ -1,9 +1,7 @@
-# don't forget to add: require 'pry'
+require 'pry'
 
-def snake_it_up(string)
-  if string[0] == "s"
-    10 * "s" + string
-  else
-    string
-  end
+def pemdos(string = "surprise!")
+  snake_it_up = 10.times do ("s" + string)
+  binding.pry 
+  puts "hello"
 end
