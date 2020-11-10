@@ -1,8 +1,6 @@
 require 'pry'
 
-def pemdos(string = "surprise!")
+def snake_it_up(string = "surprise!")
   binding.pry 
   snake_it_up = 10 * ("s" + string)
-  binding.pry 
-  puts "hello"
 end
